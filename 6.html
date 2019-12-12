@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>Belajar JavaScript</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<!-- MATERIAL DESIGN ICONIC FONT -->
-		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
-		
-		<!-- STYLE CSS -->
-		<link rel="stylesheet" href="css/style.css">
-	</head>
+<head>
+	<meta charset="utf-8">
+	<title>Belajar JavaScript</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-	<body>
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
 
-		<div class="wrapper">
-			<div class="inner">
-				<form action="">
-					<h3>Jawaban Soal DumbWays</h3>
-					<label class="form-group">
-						<input name="" id="" type="text" class="form-control"  required>
-						<span>Input 1</span>
-						<span class="border"></span>
-					</label>
-					<label class="form-group">
-						<input name="" id="" type="text" class="form-control"  required>
-						<span for="">Input 2</span>
-						<span class="border"></span>
-					</label>
-					<label class="form-group" >
-						<input name="" id="" type="text" class="form-control"  required>
-						<span for="">Input 3</span>
-						<span class="border"></span>
-					</label>
-					<button>Submit 
-						<i class="zmdi zmdi-arrow-right"></i>
-					</button>
-				</form>
-			</div>
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<div class="inner">
+			<form onsubmit="return false">
+				<h3>Jawaban Soal Nomor 6</h3>
+				<label class="form-group">
+					<input name="" id="tgl" type="text" class="form-control" required>
+					<span>Input Tgl Pembelian</span>
+					<span class="border"></span>
+				</label>
+				<label class="form-group">
+					<input name="" id="uang" type="text" class="form-control" required>
+					<span for="">Input Uang</span>
+					<span class="border"></span>
+				</label>
+				<p id="disini"></p>
+				<button id="tombol">Submit
+					<i class="zmdi zmdi-arrow-right"></i>
+				</button>
+			</form>
 		</div>
-		
-	</body>
+	</div>
+	<script src="js/6.js"></script>
+</body>
+
 </html>

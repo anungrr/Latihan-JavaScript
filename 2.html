@@ -5,7 +5,6 @@
 	<meta charset="utf-8">
 	<title>Belajar JavaScript</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<script src="2.js"></script>
 
 	<!-- MATERIAL DESIGN ICONIC FONT -->
 	<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
@@ -18,24 +17,26 @@
 
 	<div class="wrapper">
 		<div class="inner">
-			<form action="">
+			<form onsubmit="return false">
 				<h3>Jawaban Soal Nomor 2</h3>
 				<label class="form-group">
-					<input name="" id="" type="text" class="form-control" required>
+					<input name="" id="belanja" type="text" class="form-control" required>
 					<span>Input Uang Tagihan</span>
 					<span class="border"></span>
 				</label>
 				<label class="form-group">
-					<input name="" id="" type="text" class="form-control" required>
+					<input name="" id="bayar" type="text" class="form-control" required>
 					<span for="">Input Uang Pembayaran</span>
 					<span class="border"></span>
-					<button>Submit
+					<p id="disini"></p>
+					<button id="tombol">Submit
 						<i class="zmdi zmdi-arrow-right"></i>
 					</button>
+				</label>
 			</form>
 		</div>
 	</div>
-
+	<script src="js/2.js"></script>
 </body>
 
 </html>
